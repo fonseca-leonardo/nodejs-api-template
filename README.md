@@ -2,8 +2,6 @@
 
 ## Dependencies
 
-Abaixo a lista de denpendicias do template.
-
 ### Production dependencies
 
 | Nome                 | Versão  |
