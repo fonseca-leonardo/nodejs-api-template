@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "allowJs": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@config/*": ["config/*"],
+      "@shared/*": ["shared/*"],
+      "@constants/*": ["constants/*"]
+    },
+    "esModuleInterop": true,
+    "typeRoots": [
+      "src/@types",
+      "./node_modules/@types"
+    ],
+    "emitDecoratorMetadata": true,
+
+    "experimentalDecorators": true
+  }
+}
